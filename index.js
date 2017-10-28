@@ -3,3 +3,11 @@ function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
   return position;
 }
+
+function nowServing() {
+  
+}
+
+function currentLine(line) {
+  
+}
