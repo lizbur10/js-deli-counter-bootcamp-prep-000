@@ -4,8 +4,12 @@ function takeANumber(katzDeliLine, name) {
   return position;
 }
 
-function nowServing() {
-
+function nowServing(katzDeliLine) {
+  if (length.katzDeliLine > 0) {
+    katzDeliLine.shift;
+  } else {
+    return "There is nobody waiting to be served!"
+  }
 }
 
 function currentLine(line) {
